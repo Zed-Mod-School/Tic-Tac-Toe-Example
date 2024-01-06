@@ -3,7 +3,7 @@
   "oracle.o"
   "farmer.o"
   "explorer.o"
-  "assistant.o"
+
   "sage.o"
   "yakow.o"
   "village-obs.o"

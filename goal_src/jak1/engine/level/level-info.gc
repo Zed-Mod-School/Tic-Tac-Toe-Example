@@ -1987,9 +1987,9 @@
                            :ocean #f
                            :sky #t
                            :continues '((new 'static 'continue-point
-                                             :name "test-zone-start"
+                                             :name "tic-tac-toe-start"
                                              :level 'test-zone
-                                             :trans (new 'static 'vector :x 0.0 :y (meters 10.) :z (meters 10.) :w 1.0)
+                                             :trans (new 'static 'vector :x 0.0 :y (meters 303.0) :z (meters 10.) :w 1.0)
                                              :quat (new 'static 'quaternion  :w 1.0)
                                              :camera-trans (new 'static 'vector :x 0.0 :y 4096.0 :z 0.0 :w 1.0)
                                              :camera-rot (new 'static 'array float 9 1.0 0.0 0.0 0.0 1.0 0.0 0.0 0.0 1.0)
@@ -1997,8 +1997,8 @@
                                              :vis-nick 'none
                                              :lev0 'test-zone
                                              :disp0 'display
-                                             :lev1 'village1
-                                             :disp1 'display
+                                             :lev1 #f
+                                             :disp1 #f
                                              ))
                            :tasks '()
                            :priority 100

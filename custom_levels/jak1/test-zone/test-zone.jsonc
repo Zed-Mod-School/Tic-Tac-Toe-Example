@@ -72,6 +72,32 @@
   ],
 
   "actors" : [
+    {"trans": [-1.55, 300.0, -15.49], 
+    "etype": "tick-tac-toe-talker-switch",
+     "game_task": 10,
+      "quat": [0, 0, 0, 1],
+       "bsphere": [0.0, 0.0, 0.0, 0.0],
+        "lump": {"name": "project-tick-tac-toe-talker-switch",
+         "alt-actor": "project-training-part-1"}},
+         
+    {"trans":[-5.55, 300.0, -15.49], 
+    "etype": "training-part", 
+    "game_task": 10, 
+    "quat": [0, 0, 0, 1], 
+    "bsphere": [0.0, 0.0, 0.0, 0.0], 
+    "lump": {"name": "project-training-part-1", 
+    "effect-name": "'warpgate-loop", 
+    "art-name": "group-training-warpgate", 
+    "effect-param": ["float", 3.0, 80.0, 12.0, 40.0], 
+    "cycle-speed": ["float", -1.0, 0.0],
+     "game_task": "1.9999999443449297"}}, 
+     {"trans": [30.27850914001465, 305.59075927734375, 152.8817596435547], 
+     "etype": "warpgate",
+      "game_task": 10, 
+      "quat": [0, 0, 0, 1], 
+      "bsphere": [0.0, 0.0, 0.0, 0.0], "lump": {"name": "project-warpgate"}},
+
+
     {
       "trans": [-21.6238, 20.0496, 17.1191], // translation
       "etype": "fuel-cell",  // actor type
